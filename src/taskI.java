@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class taskI {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        long a = scanner.nextLong();
-        long b = scanner.nextLong();
-        long c = scanner.nextLong();
-        long d = scanner.nextLong();
+        long a = sc.nextLong();
+        long b = sc.nextLong();
+        long c = sc.nextLong();
+        long d = sc.nextLong();
 
         if (a == 0 && b == 0) {
             System.out.println("INF");
