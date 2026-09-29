@@ -8,7 +8,6 @@ public class taskF {
         int m = sc.nextInt();
         int k = sc.nextInt();
 
-        // Проверяем условия для вертикального или горизонтального разлома
         if ((k % n == 0 && k / n < m) || (k % m == 0 && k / m < n)) {
             System.out.println("YES");
         } else {
